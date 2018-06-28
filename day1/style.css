@@ -1,24 +1,23 @@
 body {
-    background-image: url("http://walldiskpaper.com/wp-content/uploads/2014/10/Background-Music-High-Resolution.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    color: white;
+    background-image: url("http://kb4images.com/images/music-wallpaper/36180455-music-wallpaper.jpg");
+    background-size: auto;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 .key {
-    color: white;
-    border: 1px solid white;
+    border: 1px solid black;
+    width: 90px;    
     padding: 10px;
     transition: all 0.07s;
+    margin-top: 100px;
 }
 
 .playing {
     transform: scale(1.1);
     border-color: red;
-}
-
-.title {
-    color: white;
+    box-shadow: 0 0 10px red;
 }
