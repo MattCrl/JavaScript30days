@@ -1,0 +1,24 @@
+body {
+    background-image: url("http://walldiskpaper.com/wp-content/uploads/2014/10/Background-Music-High-Resolution.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.key {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: red;
+}
+
+.title {
+    color: white;
+}
