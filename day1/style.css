@@ -1,5 +1,5 @@
 body {
-    background-image: url("http://kb4images.com/images/music-wallpaper/36180455-music-wallpaper.jpg");
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/city-blur-background-10.jpg");
     background-size: auto;
     min-height: 100%;
 }
@@ -13,11 +13,16 @@ html {
     width: 90px;    
     padding: 10px;
     transition: all 0.07s;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .playing {
     transform: scale(1.1);
-    border-color: red;
-    box-shadow: 0 0 10px red;
+    border-color: whitesmoke;
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+.heading, .title, h1 {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
 }
