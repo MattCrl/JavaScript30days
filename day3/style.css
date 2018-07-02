@@ -1,0 +1,23 @@
+:root {
+    --basecolor: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+
+body {
+    font-family: 'Encore Sans Condensed', sans-serif;
+    color: white;
+    background-color: rgb(31, 7, 87);
+    text-align: center;
+}
+
+.cat-img {
+    padding: var(--spacing);
+    background: var(--basecolor);
+    filter: blur(var(--blur));
+}
+
+.h1 {
+    color: var(--basecolor)
+}
