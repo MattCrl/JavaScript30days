@@ -1,9 +1,8 @@
 :root {
     --basecolor: #ffc600;
     --spacing: 10px;
-    --blur: 10px;
+    --blur: 2px;
 }
-
 
 body {
     font-family: 'Encore Sans Condensed', sans-serif;
@@ -19,5 +18,10 @@ body {
 }
 
 .h1 {
-    color: var(--basecolor)
+    color: var(--basecolor);
+    margin-bottom: 40px;
+}
+
+.controls {
+    margin-bottom: 40px;
 }
