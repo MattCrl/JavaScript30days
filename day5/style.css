@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+    background:#ffc600;
+    font-family:'helvetica neue';
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+body {
+    margin: 0;
+}
+
+.panels {
+    min-height:100vh;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.panel {
+    background:#6B0F9C;
+    box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);
+    color:white;
+    text-align: center;
+    align-items:center;
+    /* Safari transitionend event.propertyName === flex */
+    /* Chrome + FF transitionend event.propertyName === flex-grow */
+    transition:
+      font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+      background 0.2s;
+    font-size: 10px;
+    background-size:cover;
+    background-position:center;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel > * {
+    margin:0;
+    width: 100%;
+    transition:transform 0.5s;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel > *:first-child {
+    transform: translateY(-100%);
+}
+
+.panel.open-active > *:first-child {
+    transform: translateY(0%);
+}
+
+.panel > *:last-child {
+    transform: translateY(100%);
+}
+
+.panel.open-active > *:last-child {
+    transform: translateY(0%);
+}
+
+.panel p {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Amatic SC', cursive;
+    text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+    font-size: 2em;
+}
+
+.panel p:nth-child(2) {
+    font-size: 4em;
+}
+
+.panel.open {
+    flex: 5;
+    font-size:24px;
+}
+
+.panel1 {
+    margin:0;
+    background-image: url('https://wallpapercave.com/wp/wp2388380.jpg');
+}
+
+.panel2 {
+    background-image: url('https://orig00.deviantart.net/fb67/f/2013/108/8/6/charmander_by_theblacksavior-d627hfh.jpg');
+}
+
+.panel3 {
+    background-image: url('http://hdqwalls.com/wallpapers/team-valor-minimalism-pic.jpg');
+}
+
+.panel4 {
+    background-image: url('http://papers.co/wallpaper/papers.co-ad81-squirtle-pixel-art-illust-36-3840x2400-4k-wallpaper.jpg');
+}
+
+.panel5 {
+    background-image: url('http://gipsypixel.com/wp-content/uploads/2018/04/pixel-pikachu-tap-to-see-more-aweomely-cool-and-nicely-depicted-full-hd-pokemon-charmander-wallpaper-iphone-for-androids-pics.jpg');
+}
