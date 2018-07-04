@@ -7,3 +7,4 @@ Challenge : https://javascript30.com/
 - Day 3 : Update CSS Variables with JS
 - Day 4 : Practicing arrays 1
 - Day 5 : Flex Panels Image Gallery
+- Day 6 : Ajax Type Ahead
