@@ -70,6 +70,7 @@
           return aLast > bLast ? 1 : -1;
       })
       console.table(alpha);
+      
       // 8. Reduce Exercise
       // Sum up the instances of each of these
       const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
