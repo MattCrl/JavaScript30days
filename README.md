@@ -9,3 +9,4 @@ Challenge : https://javascript30.com/
 - Day 5 : Flex Panels Image Gallery
 - Day 6 : Ajax Type Ahead
 - Day 7 : Practicing arrays 2
+- Day 8 : HTML5 Canvas
