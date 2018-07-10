@@ -10,3 +10,5 @@ Challenge : https://javascript30.com/
 - Day 6 : Ajax Type Ahead
 - Day 7 : Practicing arrays 2
 - Day 8 : HTML5 Canvas
+- Day 9 : Dev Tools
+- Day 10 : Hold shift and check Checkboxes
